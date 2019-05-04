@@ -1,0 +1,8 @@
+Number 1
+
+let numbers = [4, 8, 15, 16, 23, 42],
+    result;
+
+result = numbers.reduce((total, one_number) => total + one_number, 0);
+
+console.log(result);
